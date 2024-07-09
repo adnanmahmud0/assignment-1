@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.hero-section-bg-image{
+    background-image: url("../assets/Hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+}
+
+.hero-section-contener{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 26px 225px;
+}
