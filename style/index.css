@@ -1,10 +1,15 @@
+/* grobal design setup */
 *{
     margin: 0;
     padding: 0;
 }
-
-
-
+/* font style setup */
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+/* hero section design */
 .hero-section-bg-image{
     background-image: url("../assets/Hero-bg.png");
     background-size: cover;
@@ -18,4 +23,80 @@
     flex-direction: column;
     align-items: center;
     margin: 26px 225px;
+}
+
+.hero-section-title{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 70px;
+    margin-bottom: 24px;
+    color: #0D1321;
+}
+
+.description{
+    text-align: center;
+    margin: 0px 73px 32px;
+    color: #545862;
+}
+
+.hero-section-button{
+    background-color: #0D1321;
+    color: white;
+    padding: 21px 24px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+
+/* facility-section design */
+
+.facility-section{
+    margin: 74px 148px;
+    padding: 80px 97px;
+    background-color: #FAFAFB;
+    border-radius: 16px;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.facility-contener{
+    display: flex;
+    background-color: white;
+    border-radius: 16px;
+    align-items: center;
+}
+
+.facility-contener-title{
+    color: #0D1321;
+    margin-bottom: 20px;
+}
+
+.facility-contener-description{
+    color: #545862;
+    margin-bottom: 20px;
+}
+
+.facility-contener{
+    padding: 45px 80px;
+    margin: 32px 0px;
+}
+
+.facility-contener-text{
+    padding-right: 100px;
+}
+
+.facility-contener-title{
+    color: #555963;
+    margin-bottom: 25px;
+}
+
+.facility-section-button{
+    background-color: white;
+    color: #555963;
+    padding: 10px 24px;
+    font-size: 20px;
 }
