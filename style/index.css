@@ -7,7 +7,7 @@
 button:hover {
     cursor: pointer;
 }
-
+/* header design */
 header{
     margin: 0;
     padding: 38.5px 148px;
@@ -125,7 +125,7 @@ header button{
     font-size: 20px;
     border-width: 1px;
 }
-/* inspiration section */
+/* inspiration section design*/
 .sub-hading-section{
     margin: 74px 148px;
 }
@@ -146,7 +146,7 @@ iframe{
     border-radius: 16px;
 }
 
-/* targer contener */
+/* targer contener design */
 .card-section{
     display: flex;
     justify-content: center;
@@ -198,7 +198,7 @@ iframe{
     background-color: rgba(255, 223, 0, 0.05);
 }
 
-
+/* feedback section design */
 
 .feedback-section{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/handshake.jpg");
@@ -234,6 +234,8 @@ iframe{
     font-size: 16px;
 }
 
+/* footer section design */
+
 footer{
     margin: 0;
     padding: 38.5px 148px;
@@ -242,6 +244,8 @@ footer{
     justify-content: space-between;
     background-color: #F7F8F8; 
 }
+
+/* others design */
 
 .target-card{
     display: flex;
