@@ -222,6 +222,7 @@ iframe{
     border-radius: 8px;
     border-style: none;
     font-size: 16px;
+    font-weight: 600;
 }
 
 .feedback-input{
