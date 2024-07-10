@@ -17,10 +17,12 @@ header{
 }
 
 header button{
-    padding: 17px 24px;
+    padding: 15px 24px;
     font-size: 20px;
+    font-weight: 600;
     border-radius: 8px;
     border-color: #3D424D;
+    border-width: 1.5px;
     color: #3D424D;
     background-color: white;
 }
@@ -118,8 +120,10 @@ header button{
 .facility-section-button{
     background-color: white;
     color: #555963;
+    font-weight: 550;
     padding: 10px 24px;
     font-size: 20px;
+    border-width: 1px;
 }
 /* inspiration section */
 .sub-hading-section{
@@ -173,6 +177,10 @@ iframe{
     font-weight: bold;
 }
 
+.icon img{
+    margin-bottom: 15px;
+}
+
 .card-heading{
     font-size: 24px;
     margin: 10px 0;
@@ -213,6 +221,7 @@ iframe{
     padding: 17px 20px;
     border-radius: 8px;
     border-style: none;
+    font-size: 16px;
 }
 
 .feedback-input{
@@ -221,6 +230,7 @@ iframe{
     border-style: none;
     width: 500px;
     margin-top: 24px;
+    font-size: 16px;
 }
 
 footer{
@@ -262,13 +272,14 @@ footer{
 
 .card-content h2 {
     margin: 0 0 10px;
-    font-size: 1.5em;
+    font-size: 24px;
 }
 
 .card-content p {
     margin: 0 0 20px;
     color: #666;
 }
+
 
 .learn-more {
     color: #0D1321;
